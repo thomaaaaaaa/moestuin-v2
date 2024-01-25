@@ -1,0 +1,374 @@
+
+/*////////////////////////basis/////////////////////////////*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Salsa&display=swap');
+
+h1,h2,h3,h4,h5{
+    font-size: 1.0em;
+    font-family: 'Salsa', cursive;
+    color:rgb(38, 85, 83)
+}
+
+h2{
+    font-size: 2em;
+    margin: 3%;
+}
+
+h3{
+    font-size: 3.5em;
+    margin: 3%;
+}
+
+h4{
+    font-size: 1.5em;
+    margin: 3%;
+    font-family: 'Neucha', cursive;
+}
+p{
+    font-family: 'Neucha', cursive;
+    font-size: 1.5em;
+    margin: 3%;
+}
+
+a{
+    font-family: 'Salsa', cursive;
+}
+
+main{
+    width: 100%;
+}
+
+body{
+    max-width: 375px;
+    max-height: 667px;
+    margin: 0%;
+}
+
+html{
+    max-width: 100%;
+}
+
+a {
+    color: rgb(37, 37, 61);
+  }
+
+a:visited {
+    color: rgb(78, 78, 114);
+  }
+
+/*////////////////////////overzicht/////////////////////////////*/
+
+
+
+.overzicht{
+    background-image: url("afb/tuin_achter1.png")
+}
+
+.overzicht h3{
+    margin-top: 15%;
+    text-align: center;
+}
+
+.overzicht main>div:nth-of-type(1) h3{
+    margin-right: 10%;
+}
+
+.overzicht main div div{
+    display: flex;
+    flex-direction: row;
+}
+.overzicht main>div:nth-of-type(4){
+    margin-bottom: 100%;
+    color: white;
+}
+.overzicht h2{
+    text-align: center;
+    margin-top: 10%;
+}
+.overzicht main div>a{
+    background-color: rgb(196, 226, 210);
+    margin-left: 25%;
+    margin-top: 50%;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 2em;
+}
+
+.overzicht p{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.overzicht main div:nth-of-type(odd) img{
+    margin-right: 0%;
+    margin-left: 9%;
+}
+
+.overzicht main div:nth-of-type(even) img{
+    margin-right: 0%;
+    margin-left: 2%;
+}
+
+.overzicht>main>div:nth-of-type(3)>div>img{
+    margin-right: 0%;
+    margin-left: -10%;
+}
+.overzicht>main>div:nth-of-type(1)>div>img{
+    margin-right: 0%;
+    margin-left: -10%;
+}
+
+
+
+
+.overzicht main>div{
+margin-top: 15%;
+}
+
+.overzicht main>div>div{
+    margin-bottom: 15%;
+}
+
+.overzicht main>div:nth-of-type(3)>p{
+    margin-top: -5%;
+}
+
+.overzicht main>div:nth-of-type(3)>div>h3{
+    color:rgb(25, 56, 55)
+}
+.overzicht main>div:nth-of-type(2)>div>h3{
+   margin-top: 30%;
+}
+
+
+.overzicht main>div:nth-of-type(4)>div{
+    margin-top: -20%;
+}
+.overzicht main>div:nth-of-type(4)>div>h3{
+    margin-top: 25%;
+    color: rgb(18, 41, 40)
+}
+
+.overzicht main>div:nth-of-type(4) img{
+    margin-right: -10%;
+}
+
+
+.overzicht main>div:nth-of-type(4){
+    padding-bottom: 50%;
+}
+
+.overzicht main{
+    padding-top: 15%;
+}
+
+.overzicht main div:nth-of-type(even) div{
+    flex-direction: row-reverse;
+}
+
+.overzicht main{
+    padding-top: 15%;
+}
+
+
+
+/*////////////////////////achtergronden/////////////////////////////*/
+
+
+.home{
+    background-image: url("afb/landing_achter1.png");
+    width: 100%;
+}
+
+.tuin{
+    background-image: url("afb/det_koepachter1.png");
+    width: 100%;
+}
+.mensen{
+    background-image: url("afb/det_mensenachter1.png");
+    width: 100%;
+}
+.planten{
+    background-image: url("afb/det_plantachter1.png");
+    width: 100%;
+}
+.lessen{
+    background-image: url("afb/det_lessenachter1.png");
+    width: 100%;
+}
+
+/*////////////////////////detailpaginas/////////////////////////////*/
+
+.detail{
+    padding-top: 2%;
+}
+
+.detail h2{
+    padding-top: 15%;
+    margin-left: 5%;
+    font-size: 3em;
+}
+
+.detail h3{
+    margin-left: 5%;
+    font-size: 1.5em;
+    padding-top: 5%;
+}
+
+.detail p{
+    margin-left: 5%;
+}
+
+.detail main{
+    padding-bottom: 25%;
+}
+
+
+.detail main>a{
+    background-color: rgb(196, 226, 210);
+    margin-left: 20%;
+    margin-top: 50%;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 1.3em;
+}
+
+.detail main div{
+    margin-top: 35%;
+    margin-bottom: 10%;
+}
+
+.tuin div{
+    padding-top: 15%;
+}
+
+.lessen div{
+    padding-top: 7%;
+}
+
+.mensen div{
+    padding-top: 14%;
+}
+/*////////////////////////home/////////////////////////////*/
+
+.home>main{
+    margin-top: 20%;
+    margin-left: 1%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.home>main>h2{
+    font-size: 3em;
+    margin-top: -5%;
+}
+
+.home>main>div{
+    margin-top: 48%;
+    margin-bottom: 5%;
+}
+
+
+.home>main>div>p:nth-of-type(3){
+    font-family: 'Salsa', cursive;
+    color:rgb(21, 37, 37);
+    font-size: 1.4em;
+}
+
+.home main a{
+    background-color: rgb(196, 226, 210);
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 1.6em;
+}
+
+/*////////////////////////header/////////////////////////////*/
+
+header{
+    display: flex;
+    justify-content: left;
+    background-color: rgb(196, 226, 210);
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    max-width: 375px;
+
+}
+header h5{
+    padding-top: 0%;
+    margin-left: 0%;
+}
+
+header a{
+    margin: 2%;
+    margin-left: 3%;
+}
+header h1{
+    padding: 2%;
+}
+
+header h1{
+    margin-top: 0%;
+    margin-bottom: 0%;  
+    padding-bottom: 0%;
+    font-size: 1.6em;
+    color:rgb(38, 85, 83)
+}
+
+header h5{
+    margin-top: 0%;
+    font-size: 1.2em;
+    color:rgb(79, 138, 136)
+}
+header>div{
+    display: flex;
+    flex-direction: column;
+}
+
+/*//////////////////footer//////////////////*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4%;
+    padding-bottom: 10%;
+    padding-top: 4%;
+    max-width: 375px;
+    font-size: 1.5em;
+}
+
+footer li:nth-of-type(odd){
+    margin-left: 10%;
+    margin-right: 3%;
+}
+
+footer li:nth-of-type(2){
+    margin-right: 10%;
+}
+
+footer li:nth-of-type(4){
+    margin-right: 10%;
+}
+ul{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(196, 226, 210);
+    width: 100%;
+    height: 4%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    list-style-type: none;
+    margin-bottom: 0%;
+    max-width: 375px;
+    padding-left: 0%;
+}
